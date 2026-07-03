@@ -1,123 +1,81 @@
-# Airbnb-Analytics-Dashboard-PowerBI
-Interactive Power BI dashboard analyzing Airbnb listings in New York City — insights into listings distribution, pricing, hosts, room types, and neighbourhood performance. Built using Power BI, DAX, SQL, Databricks, Genni, and GitHub.
+Airbnb Analytics Dashboard
+📌 Project Overview
 
-# Airbnb Analytics Dashboard
+An interactive Power BI dashboard that analyzes Airbnb listings in New York City to uncover trends in pricing, listings, neighbourhood performance, host activity, and room types. The dashboard enables users to explore Airbnb data through interactive visualizations and supports data-driven decision-making.
 
-## 📌 Project Overview
-A comprehensive Power BI dashboard analyzing Airbnb listings in New York City. It provides actionable insights into listing distribution, pricing, host activity, room types, and neighbourhood performance.
+🎯 Project Objective
 
-## 🎯 Project Objective
-To create an interactive dashboard that enables stakeholders to make data-driven decisions about Airbnb market dynamics in NYC.
+To build a comprehensive Power BI dashboard that provides meaningful insights into Airbnb listings, pricing patterns, neighbourhood distribution, and host activity using SQL, Databricks, Genie AI, and Power BI.
 
-## 🛠 Technologies Used
-- Power BI Desktop (visualization & dashboard design)
-- DAX (advanced calculations)
-- SQL (data modeling & transformation)
-- Databricks (data engineering & pipeline management)
-- Genni (AI‑powered analytics automation)
-- GitHub (version control & documentation)
-
-## 📈 Dashboard KPIs
-- Total Listings
-- Average Price
-- Unique Hosts
-- Listings by Neighbourhood
-- Average Price by Neighbourhood
-- Listings by Room Type
-- Property Type
-- New Hosts Over Time
-- Geographic Distribution
-
-## 💡 Key Business Insights
-- Manhattan dominates listings volume.
-- Brooklyn shows diverse room type distribution.
-- Average prices vary significantly by neighbourhood.
-- Host growth has accelerated since 2015.
-- Entire homes dominate revenue share, while private rooms provide affordability.
-
-## 📈 Business Recommendations
-- Focus marketing on Manhattan for premium listings.
-- Promote Brooklyn for diverse room types and affordability.
-- Adjust pricing strategies to neighbourhood benchmarks.
-- Encourage new hosts in underrepresented areas.
-
-## 🧹 Data Cleaning
-- Removed duplicates
-- Handled missing values in Price and Reviews
-- Standardized neighbourhood names
-
-## 🔄 Data Transformation
-- Converted Host Since to weekly buckets
-- Normalized Price field to currency format
-- Created calculated columns for time-based analysis
-
-## 🏗 Data Modeling
-- Star schema with Listings fact table
-- Dimension tables: Neighbourhood, Room Type, Property Type
-
-## 📐 DAX Measures
-- `Record Count = SUM(nyc[Number of Records])`
-- `Average Price = AVERAGE(nyc[Price])`
-- `Unique Host Count = DISTINCTCOUNT(nyc[Host Id])`
-
-## 📊 Calculated Columns
-- Host Since Week Starting
-- Price Buckets (Low, Medium, High)
-
-## 📉 Power BI Visuals Used
-- Clustered Bar Chart
-- Area Chart
-- Donut Chart
-- Horizontal Bar Chart
-- 100% Stacked Bar Chart
-- Map Visual
-- KPI Cards
-- Slicers
-
-## 💡 Key Business Insights
-- Manhattan dominates listings volume.
-- Brooklyn shows diverse room type distribution.
-- Average prices vary significantly by neighbourhood.
-- Host growth has accelerated since 2015.
-- Entire homes dominate revenue share, while private rooms provide affordability.
-
-## 📈 Business Recommendations
-- Focus marketing on Manhattan for premium listings.
-- Promote Brooklyn for diverse room types and affordability.
-- Adjust pricing strategies to neighbourhood benchmarks.
-- Encourage new hosts in underrepresented areas.
-
-## ⚙️ Challenges
-- Handling missing values in Price and Reviews
-- Formatting visuals consistently
-- Balancing bubble sizes in map visualization
-
-## 🚀 Future Improvements
-- Add predictive analytics for pricing
-- Integrate review sentiment analysis
-- Automate dataset refresh
-- Add drill-through pages for detailed host analysis
-
-## 📂 Folder Structure
+🛠️ Technologies Used
+Power BI Desktop
+SQL
+Databricks
+Genie AI
+GitHub Copilot
+DAX
+GitHub
+📊 Dashboard KPIs
+Total Listings
+Average Price
+Unique Hosts
+Listings by Neighbourhood
+Average Price by Neighbourhood
+Listings by Room Type
+Property Type Distribution
+New Hosts Over Time
+📈 Dashboard Features
+Interactive KPI Cards
+Line Chart
+Clustered Bar Chart
+100% Stacked Bar Chart
+Treemap
+Map Visualization
+Slicers & Filters
+Dynamic Cross-filtering
+🧹 Data Preparation
+Imported dataset into Databricks
+Queried data using SQL
+Used Genie AI and GitHub Copilot for SQL assistance
+Connected Databricks to Power BI
+Cleaned dataset by handling missing values and correcting data types
+Prepared the dataset for dashboard development
+📊 Key Insights
+Manhattan has the highest number of Airbnb listings.
+Brooklyn is the second-largest market with diverse room types.
+Entire Home/Apartment is the most preferred room type.
+Listing prices vary significantly across neighbourhoods.
+Host registrations have increased steadily over time.
+💡 Business Recommendations
+Focus premium marketing campaigns in Manhattan.
+Encourage new hosts in low-density neighbourhoods.
+Optimize pricing based on neighbourhood trends.
+Monitor host growth to identify emerging markets.
+🚀 Skills Demonstrated
+Data Visualization
+Dashboard Design
+Business Intelligence
+SQL Querying
+Data Cleaning
+Data Modeling
+DAX Calculations
+Interactive Reporting
+📂 Repository Structure
 Airbnb-Analytics-Dashboard-PowerBI/
 │
 ├── Dataset
-├── PowerBI_File
+├── PowerBI_Files
 ├── Screenshots
-├── Reports
-├── SQL_Scripts
 ├── Documentation
+├── SQL_Scripts
 └── README.md
-
-
-## 🛠 Technologies Used
-- Power BI Desktop
-- DAX
-- SQL
-- Excel/CSV
-
-## 📷 Project Screenshots
+📸 Dashboard Preview
 <img width="1367" height="787" alt="airbnb dashbord" src="https://github.com/user-attachments/assets/009fd78b-935e-4022-91f3-22f941fb40a6" />
+
+
+📚 Learning Note
+
+This dashboard was developed as part of my Power BI learning journey using Databricks, Genie AI, SQL, and Power BI. It demonstrates my understanding of data preparation, dashboard development, and business analytics.
 
 
 

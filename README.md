@@ -124,3 +124,17 @@ Airbnb-Analytics-Dashboard-PowerBI/
 ├── SQL_Scripts
 ├── Documentation
 └── README.md
+
+
+## 🛠 Technologies Used
+- Power BI Desktop
+- DAX
+- SQL
+- Excel/CSV
+
+## 📷 Project Screenshots
+<img width="1367" height="787" alt="airbnb dashbord" src="https://github.com/user-attachments/assets/009fd78b-935e-4022-91f3-22f941fb40a6" />
+
+
+
+

@@ -1,45 +1,23 @@
 # Airbnb-Analytics-Dashboard-PowerBI
-Interactive Power BI dashboard analyzing Airbnb listings in New York City — insights into listings distribution, pricing, hosts, room types, and neighbourhood performance.
+Interactive Power BI dashboard analyzing Airbnb listings in New York City — insights into listings distribution, pricing, hosts, room types, and neighbourhood performance. Built using Power BI, DAX, SQL, Databricks, Genni, and GitHub.
 
 # Airbnb Analytics Dashboard
 
 ## 📌 Project Overview
-This project delivers a comprehensive Power BI dashboard analyzing Airbnb listings in New York City. It provides actionable insights into listing distribution, pricing, host activity, room types, and neighbourhood performance.
+A comprehensive Power BI dashboard analyzing Airbnb listings in New York City. It provides actionable insights into listing distribution, pricing, host activity, room types, and neighbourhood performance.
 
 ## 🎯 Project Objective
 To create an interactive dashboard that enables stakeholders to make data-driven decisions about Airbnb market dynamics in NYC.
 
-## 🏢 Business Problem
-Airbnb stakeholders need clear visibility into:
-- Which neighbourhoods dominate listings
-- How host activity evolves over time
-- Pricing variations across neighbourhoods
-- Distribution of room and property types
-- Geographic spread of listings
+## 🛠 Technologies Used
+- Power BI Desktop (visualization & dashboard design)
+- DAX (advanced calculations)
+- SQL (data modeling & transformation)
+- Databricks (data engineering & pipeline management)
+- Genni (AI‑powered analytics automation)
+- GitHub (version control & documentation)
 
-## 📊 Dataset Overview
-- Source: Inside Airbnb (NYC dataset)
-- Records: ~50,000 listings
-- Key fields: Host ID, Host Since, Neighbourhood, Room Type, Price, Number of Reviews, Property Type
-
-## 📑 Business Requirements
-- Track total listings and unique hosts
-- Monitor host growth trends
-- Compare average prices across neighbourhoods
-- Analyze room type and property type distribution
-- Visualize geographic spread of listings
-
-## 📈 Dashboard Overview
-The dashboard consists of multiple pages and visuals:
-- Listings by Neighbourhood
-- Average Price by Neighbourhood
-- Room Type Distribution
-- Property Type Analysis
-- Host Growth Over Time
-- Geographic Map of Listings
-- KPI Cards for quick insights
-
-## 🔑 KPIs
+## 📈 Dashboard KPIs
 - Total Listings
 - Average Price
 - Unique Hosts
@@ -50,12 +28,18 @@ The dashboard consists of multiple pages and visuals:
 - New Hosts Over Time
 - Geographic Distribution
 
-## 🛠 Dashboard Features
-- Interactive slicers (Property Type, Room Type, Neighbourhood)
-- KPI cards
-- Airbnb-branded theme and logo
-- Map visualization with bubble sizing and color coding
-- Drill-down and tooltips
+## 💡 Key Business Insights
+- Manhattan dominates listings volume.
+- Brooklyn shows diverse room type distribution.
+- Average prices vary significantly by neighbourhood.
+- Host growth has accelerated since 2015.
+- Entire homes dominate revenue share, while private rooms provide affordability.
+
+## 📈 Business Recommendations
+- Focus marketing on Manhattan for premium listings.
+- Promote Brooklyn for diverse room types and affordability.
+- Adjust pricing strategies to neighbourhood benchmarks.
+- Encourage new hosts in underrepresented areas.
 
 ## 🧹 Data Cleaning
 - Removed duplicates
